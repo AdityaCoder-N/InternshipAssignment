@@ -1,0 +1,44 @@
+.row{
+    margin-top: 3%;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+.card-title-container{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image{
+    flex:20%;
+    height: 40px;
+    max-width: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card-title{
+    flex:20%;
+}
+.card-btn{
+    flex:60%;
+    max-width: 40%;
+}
+
+.card-content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-content{
+    flex:70%;
+}
+.price{
+    flex:30%;
+    color: rgb(200, 65, 65);
+    font-weight: bolder;
+}
+

@@ -1,0 +1,53 @@
+.navbar{
+    height:130px;
+    margin-bottom: 15px;
+}
+
+.container-fluid{
+    border-bottom: 1px solid grey;
+    padding:7px;
+    display:flex;
+    padding-left: 0px;
+}
+.link-cont{
+    width: 30%;
+}
+
+#projects{
+    width: 50%;
+    padding-bottom: 11px; 
+}
+#explore{
+    width: 50%;
+    padding-bottom: 11px; 
+    margin-left: 10px;
+}
+
+.profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.profile img{
+    height: 40px;
+    max-width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav-active{
+    border-bottom: 4px solid rgb(219, 63, 63);
+    color: rgb(219, 63, 63);
+    font-size: 25px;
+}
+
+@media screen and (max-width: 680px) {
+    
+    .form-control,.btn-outline-success{
+        display: none;
+    }
+
+}
